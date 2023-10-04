@@ -1,6 +1,7 @@
 import { Client, Databases, Query } from 'appwrite';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import Loginform from '../app/loginform/page';
 
 
 
@@ -56,6 +57,8 @@ function Blogboard() {
 
 
             </div>
+
+         
         </div>
     )
 }
